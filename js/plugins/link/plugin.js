@@ -15,7 +15,7 @@
 		hidpi: true, // %REMOVE_LINE_CORE%
 		onLoad: function() {
 			// Add the CSS styles for anchor placeholders.
-			var iconPath = CKEDITOR.getUrl( this.path + 'images' + ( CKEDITOR.env.hidpi ? '/hidpi' : '' ) + '/alternative_anchor.png' ),
+			var iconPath = CKEDITOR.getUrl( this.path + 'images' + ( CKEDITOR.env.hidpi ? '/hidpi' : '' ) + '/anchor.png' ),
 				baseStyle = 'background:url(' + iconPath + ') no-repeat %1 center;border:1px dotted #00f;background-size:16px;';
 
 			var template = '.%2 a.cke_anchor,' +

@@ -61,7 +61,7 @@ class AnchorLink extends CKEditorPluginBase {
       ],
       'Anchor' => [
         'label' => $this->t('Anchor'),
-        'image' => drupal_get_path('module', 'anchor_link') . '/js/plugins/link/icons/alternative_anchor.png',
+        'image' => drupal_get_path('module', 'anchor_link') . '/js/plugins/link/icons/anchor.png',
       ],
     ];
   }
